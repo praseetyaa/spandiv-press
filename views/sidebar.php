@@ -13,7 +13,6 @@
           <div class="col text-start">
               <p class="mb-0 fw-bold text-truncate"><?= $product['post_title'] ?></p>
       			  <span>
-      				  <p class="h2 my-2 fw-bold text-primary">Rp <?= $product['price'] ?></p>
       				  <?php foreach($product['category'] as $category) : ?>
       				  <span class="badge bg-primary"><?= $category['name'] ?></span>
       				  <?php endforeach ?>
